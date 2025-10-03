@@ -1,19 +1,7 @@
 export default function AIServicesSection() {
   return (
-    <section className="py-16 bg-gray-50 relative overflow-hidden">
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `
-            linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px)
-          `,
-          backgroundSize: "20px 20px",
-          mask: "radial-gradient(ellipse 70% 60% at center, black 20%, transparent 70%)",
-          WebkitMask:
-            "radial-gradient(ellipse 70% 60% at center, black 20%, transparent 70%)",
-        }}
-      />
+    <section className="py-16 relative overflow-hidden md:px-60">
+      <div className="absolute inset-0" />
 
       {/* AI Enhancement Banner */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 relative z-10">

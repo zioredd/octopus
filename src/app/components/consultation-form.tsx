@@ -35,7 +35,10 @@ export default function ConsultationSection() {
   };
 
   return (
-    <section className="w-full bg-black text-white py-16 px-6">
+    <section
+      id="get-in-touch"
+      className="w-full bg-black text-white py-16 px-6"
+    >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left graphics */}
         <div className="flex justify-center md:justify-start">
@@ -51,15 +54,12 @@ export default function ConsultationSection() {
             Get in touch to discuss your software vision with industry experts
           </h2>
 
-          <form onSubmit={handleSubmit} className="space-y-6 max-w-[70%]">
+          <form
+            onSubmit={handleSubmit}
+            className="space-y-6 max-w-[70%] min-w-full md:min-w-[400px]"
+          >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                {/* <label
-                  htmlFor="firstName"
-                  className="inter text-[#9D9D9D] text-xs font-medium leading-5 mb-1.5"
-                >
-                  First name
-                </label> */}
                 <input
                   type="text"
                   id="firstName"
@@ -72,12 +72,6 @@ export default function ConsultationSection() {
                 />
               </div>
               <div>
-                {/* <label
-                  htmlFor="lastName"
-                  className="inter text-[#9D9D9D] text-xs font-medium leading-5 mb-1.5"
-                >
-                  Last name
-                </label> */}
                 <input
                   type="text"
                   id="lastName"
@@ -90,12 +84,6 @@ export default function ConsultationSection() {
                 />
               </div>
               <div>
-                {/* <label
-                  htmlFor="email"
-                  className="inter text-[#9D9D9D] text-xs font-medium leading-5 mb-1.5"
-                >
-                  Email
-                </label> */}
                 <input
                   type="email"
                   id="email"
@@ -108,12 +96,6 @@ export default function ConsultationSection() {
                 />
               </div>
               <div>
-                {/* <label
-                  htmlFor="company"
-                  className="inter text-[#9D9D9D] text-xs font-medium leading-5 mb-1.5"
-                >
-                  Company Name
-                </label> */}
                 <input
                   type="text"
                   id="company"
@@ -127,12 +109,6 @@ export default function ConsultationSection() {
               </div>
             </div>
             <div>
-              {/* <label
-                htmlFor="lookingFor"
-                className="inter text-[#9D9D9D] text-xs font-medium leading-5 mb-1.5"
-              >
-                I am looking for
-              </label> */}
               <select
                 name="service"
                 value={form.service}
@@ -148,12 +124,6 @@ export default function ConsultationSection() {
               </select>
             </div>
             <div>
-              {/* <label
-                htmlFor="howHelp"
-                className="inter text-[#9D9D9D] text-xs font-medium leading-5 mb-1.5"
-              >
-                How we can help
-              </label> */}
               <textarea
                 name="message"
                 placeholder="Leave us a message..."

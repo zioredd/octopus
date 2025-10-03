@@ -6,7 +6,7 @@ const Button: React.FC<ButtonProps> = ({ children, ...props }) => (
   <button
     {...props}
     style={{
-      padding: "0.5rem 1rem",
+      padding: "0.4rem 1rem",
       background: "#222",
       color: "#fff",
       border: "none",

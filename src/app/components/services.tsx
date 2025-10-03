@@ -2,17 +2,17 @@ import { Globe, Bot, Code, Smartphone, Database, Zap } from "lucide-react";
 
 export function ServicesSection() {
   return (
-    <section className="bg-gray-50 py-20">
+    <section id="services" className="py-20 md:px-60">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-8">
           <span className="inline-block bg-white px-4 py-2 rounded-full text-sm text-gray-600 border mb-8">
             Services and expertise
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
             Solutions that drive business growth
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            With 15+ years of experience, we specialize in delivering
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto ">
+            With 5+ years of experience, we specialize in delivering
             cutting-edge software solutions, from custom web applications to
             AI-powered automation systems
           </p>
@@ -26,7 +26,7 @@ export function ServicesSection() {
                 <Globe className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   Website Development
                 </h3>
                 <p className="text-gray-600">
@@ -41,7 +41,7 @@ export function ServicesSection() {
                 <Code className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   Custom Software Development
                 </h3>
                 <p className="text-gray-600">
@@ -56,7 +56,7 @@ export function ServicesSection() {
                 <Bot className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   AI Automation
                 </h3>
                 <p className="text-gray-600">
@@ -71,7 +71,7 @@ export function ServicesSection() {
                 <Smartphone className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   Mobile App Development
                 </h3>
                 <p className="text-gray-600">
@@ -86,7 +86,7 @@ export function ServicesSection() {
                 <Database className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   Database Solutions
                 </h3>
                 <p className="text-gray-600">
@@ -100,7 +100,7 @@ export function ServicesSection() {
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   API Integration
                 </h3>
                 <p className="text-gray-600">

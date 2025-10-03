@@ -62,28 +62,20 @@ export default function PortfolioSection() {
   };
 
   return (
-    <section className="py-20 bg-gray-50 w-full overflow-hidden relative">
+    <section id="works" className="py-10 overflow-hidden relative md:px-60">
       <div className="px-4 sm:px-6 lg:px-8 mb-16">
         <div className="text-center max-w-7xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
             <span className="text-orange-500">Our clients win.</span>
             <br />
             <span className="text-gray-900">You can, too.</span>
           </h2>
           <div className="max-w-4xl mx-auto">
-            <p className="text-base sm:text-lg text-gray-600 mb-4">
-              Innovative companies like{" "}
-              <span className="font-semibold text-gray-900">
-                TechCorp, DataFlow, CloudSync, InnovateLab, and StartupHub
-              </span>
-            </p>
             <p className="text-base sm:text-lg text-gray-600 mb-2">
-              rely on the technical expertise and custom solutions provided by
-              our development team.
-            </p>
-            <p className="text-base sm:text-lg text-gray-600">
-              See how they overcame industry challenges and achieved their goals
-              by partnering with us.
+              Leading enterprises partner with our development team for
+              technical expertise and tailored solutions. Learn how our
+              collaborations have helped overcome industry challenges and
+              deliver measurable results.
             </p>
           </div>
         </div>
